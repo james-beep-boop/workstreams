@@ -17,6 +17,10 @@ Read top to bottom before starting work. Earlier sections have higher priority.
   - Software developer for all ARES software except SHEQL
   - Fundraiser
   - Education content creator
+
+- **MaryMargaret Welch**
+  - Education content creator
+
 - **David**
   - IT support
   - Sole developer of SHEQL
@@ -32,8 +36,7 @@ These are ground-operations partners only. They help with training teachers and 
 
 ### Demo
 
-- Digital educational materials demo: https://demo.aresedu.dev
-- Note: returns 403 from the container, but loads correctly in a browser.
+- Online ARES digital educational materials demo: https://demo.aresedu.dev
 
 ---
 
@@ -68,7 +71,7 @@ These are ground-operations partners only. They help with training teachers and 
 ### Architecture notes
 
 - V1 is online-only; schools must connect to DreamHost to access lesson plans.
-- The system must eventually work offline.
+- The system must eventually work offline - see decisions.md
 - AI suggestions are controlled by the `AI_SUGGESTIONS_ENABLED` flag.
 
 ### Related notes
