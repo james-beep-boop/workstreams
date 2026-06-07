@@ -89,6 +89,14 @@ This is the machine map for the whole workspace, so every machine can read the s
 - **Preferred control machine:** Mac mini M4
 - **Preferred interactive Hermes machine:** MacBook Air M5
 
+## Application hosting note (SHEQL / Lesson3)
+
+The lesson-plan platform (Lesson3) is a **Node.js + PostgreSQL** app that embeds the CBE DOCX generator in-process.
+
+- Any of the always-on machines (Rock 5B, Mac mini) can host the Node app + Postgres for dev/staging; the Rock 5B suits an always-on service role.
+- The DGX Spark remains the GPU/local-LLM machine if AI assistance is added later.
+- **Offline target:** a single Node + Postgres deployment on a local box at a school — no DreamHost, no second runtime.
+
 ## Source of truth
 
 This file is intended to be the shared computing-environment reference for all machines and agents.
