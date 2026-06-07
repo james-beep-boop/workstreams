@@ -1,11 +1,40 @@
-# Workstreams
+# ARES Lesson Library
 
-Shared project documentation for Hermes, Nanoclaw, Codex, and other agents.
+Laravel 13 / Filament 5 application for storing, versioning, comparing, translating, exporting, and managing lesson plans for ARES Kenya.
 
-Start here:
+Live site: https://www.sheql.com
+
+## Docs
+
+- `Lesson2.md` — canonical product/spec document
+- `USER_GUIDE.md` — first-time user guide and role summary
+- `PROGRESS.md` — current build tracker
+- `Toast_UI_Editor_Plan.md` — editor implementation plan
 - `COMPUTING_ENVIRONMENT.md` — shared machine map and environment notes
 - `projects.md` — current project brief and priorities
 - `AGENTS.md` — Hermes entry point for this repo
 - `CLAUDE.md` — Claude/Nanoclaw entry point for this repo
 
-This repo is for Markdown docs and planning notes only. No secrets.
+## Local development
+
+```bash
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+npm install
+npm run build
+php artisan db:seed
+```
+
+For demo data:
+
+```bash
+php artisan db:seed --class=DemoSeeder
+```
+
+Run the app with your preferred local workflow or:
+
+```bash
+composer run dev
+```
