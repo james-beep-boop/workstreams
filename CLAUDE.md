@@ -1,7 +1,7 @@
 # Workstreams
 
-This repo is the shared, public project brief for Claude-based agents and related tooling.
-Read `projects.md` first.
+Claude/Nanoclaw entry point for the shared project brief.
+Read `COMPUTING_ENVIRONMENT.md` first, then `projects.md`.
 
 Rules:
 - Keep changes in Markdown.

@@ -1,10 +1,11 @@
 # Workstreams
 
-Canonical shared project documentation for Hermes, Nanoclaw, and other agents.
+Shared project documentation for Hermes, Nanoclaw, Codex, and other agents.
 
 Start here:
+- `COMPUTING_ENVIRONMENT.md` — shared machine map and environment notes
 - `projects.md` — current project brief and priorities
-- `AGENTS.md` — agent-facing instructions for this repo
-- `CLAUDE.md` — Claude-compatible agent entry point
+- `AGENTS.md` — Hermes entry point for this repo
+- `CLAUDE.md` — Claude/Nanoclaw entry point for this repo
 
 This repo is for Markdown docs and planning notes only. No secrets.

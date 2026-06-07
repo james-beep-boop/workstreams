@@ -1,7 +1,7 @@
 # Workstreams
 
-This repo is the shared, public project brief for Hermes and other agents.
-Read `projects.md` first.
+Hermes entry point for the shared project brief.
+Read `COMPUTING_ENVIRONMENT.md` first, then `projects.md`.
 
 Rules:
 - Keep changes in Markdown.
