@@ -1,7 +1,7 @@
 # Projects
 
-This file is the shared project brief for Hermes, Nanoclaw, and other agents.
-Read top to bottom before starting work. The sections are ordered by priority: the first active item is the main focus, while later sections provide supporting context.
+This file is the shared project brief for Hermes, Nanoclaw, Codex, and other agents.
+Read top to bottom before starting work. Earlier sections have higher priority.
 
 ## ARES Education — Organization
 
@@ -37,21 +37,14 @@ These are ground-operations partners only. They help with training teachers and 
 
 ---
 
-## AI Lesson Plan Development — Most Important Active Work
+## AI Lesson Plan Development — Current Priority
 
-- **What it is:** The newest and most significant part of the ARES project.
 - **Lead:** Mark Knittel, working with Seavuria.
 - **Purpose:** Use AI, primarily Claude, to create detailed lesson plans for Kenyan high school teachers.
-- **Curriculum target:** Kenya’s Competency Based Curriculum (CBC), now mandated nationwide by the Kenyan Department of Education.
+- **Curriculum target:** Kenya’s Competency Based Curriculum (CBC), mandated nationwide by the Kenyan Department of Education.
 - **Type of work:** Content creation, not software.
 - **Output:** Structured, curriculum-compliant lesson plans deployed to teachers across Kenya.
-
-### Key facts
-
-- AI-driven lesson plan generation led by Mark + Seavuria
-- Designed to comply with Kenya’s CBC
-- Primary tool: Claude
-- Strategically more important than the SHEQL platform itself
+- **Priority note:** This work is more strategically important than the SHEQL platform itself.
 
 ### CBE Generation System
 
