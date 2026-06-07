@@ -1,40 +1,24 @@
-# ARES Lesson Library
+# workstreams
 
-Laravel 13 / Filament 5 application for storing, versioning, comparing, translating, exporting, and managing lesson plans for ARES Kenya.
+Shared coordination hub for ARES agents (Hermes, Claude/Nanoclaw, Codex) and humans.
+**Coordination and environment notes only — application code and canonical project docs live in the project repositories.**
 
-Live site: https://www.sheql.com
+## Read order
 
-## Docs
+1. `COMPUTING_ENVIRONMENT.md` — machine map (which machine for which task)
+2. `projects.md` — organization + project brief and current priorities
+3. `PROGRESS.md` — current build status
 
-- `Lesson2.md` — canonical product/spec document
-- `USER_GUIDE.md` — first-time user guide and role summary
-- `PROGRESS.md` — current build tracker
-- `Toast_UI_Editor_Plan.md` — editor implementation plan
-- `COMPUTING_ENVIRONMENT.md` — shared machine map and environment notes
-- `projects.md` — current project brief and priorities
-- `AGENTS.md` — Hermes entry point for this repo
-- `CLAUDE.md` — Claude/Nanoclaw entry point for this repo
+## Agent entry point
 
-## Local development
+- `AGENTS.md` — Hermes entry point (start with `COMPUTING_ENVIRONMENT.md`, then `projects.md`)
 
-```bash
-composer install
-cp .env.example .env
-php artisan key:generate
-php artisan migrate
-npm install
-npm run build
-php artisan db:seed
-```
+## Project repositories
 
-For demo data:
+- **Lesson3** (active) — https://github.com/james-beep-boop/Lesson3 — the SHEQL lesson-plan platform (Node/TypeScript + Payload CMS). Canonical docs live there: `SPEC.md`, `CLAUDE.md`, `AGENTS.md`, `USER_GUIDE.md`.
+- **Lesson2** (legacy, preserved) — https://github.com/james-beep-boop/Lesson2 — the superseded Laravel/Filament build. Reference only.
+- **cbe-generation-system** — https://github.com/markknit/cbe-generation-system — generates the CBE lesson plans; Lesson3 reuses its DOCX generator and data schema.
 
-```bash
-php artisan db:seed --class=DemoSeeder
-```
+## Other notes
 
-Run the app with your preferred local workflow or:
-
-```bash
-composer run dev
-```
+- `UPDATE_RECS.md` — dependency strategy notes
